@@ -95,3 +95,16 @@ footer {
     text-align: center;
     padding: 20px 5px 3px 5px;
 }
+
+
+
+
+.images img{
+    max-width: 99%;
+    max-height: 99%;
+    min-height: 99%;
+}
+
+.images {
+    display: flex
+}

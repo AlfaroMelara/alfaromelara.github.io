@@ -1,0 +1,1 @@
+var images = ["IMG01.jpg", "IMG02.jpg", "IMG03.jpg"];

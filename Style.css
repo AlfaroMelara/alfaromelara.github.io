@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#MainNav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #062943;
+    width: 100%;
+    position: static;
+    padding: 8px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    margin-right: 25px;
+}
+
+nav li:hover {
+    transition: 0.5s;
+}
+
+nav li:not(hover) {
+    transition: 0.5s;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    ;
+}
+
+nav a:hover {
+    color: #fdc300;
+}
+
+nav a:not(hover) {
+    transition: 0.3s;
+}
+
+#BtnContact {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #000;
+    background: #fdc300;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#BtnContact:hover {
+    background: #fff;
+    transition: 0.3s;
+}
+
+#BtnContact:not(hover) {
+    transition: 0.3s;
+}
+
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1% 2%;
+}
+
+#ServicesCont ul{
+    padding: 1% 2% 2% 4%;
+}
+
+#StudiesTitles {
+padding: 1% 2%;}
+
+#StudiesTitles p{
+    padding: 0.3%;}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 5px 10px 5px;
+}

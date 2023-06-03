@@ -22,7 +22,7 @@
     background-color: #062943;
     width: 100%;
     position: static;
-    padding: 8px;
+    padding: 0.3%;
 }
 
 .HeaderNavMain ul {
@@ -85,10 +85,6 @@ footer {
     padding: 20px 5px 3px 5px;
 }
 
-
-
-
-
 @media (max-width: 480px) {
     body {
       min-width: 480px;
@@ -101,8 +97,6 @@ footer {
     }
   }
 
-
-  
 .images img {
     max-width: 99%;
     max-height: 99%;
@@ -112,6 +106,3 @@ footer {
 .images {
     display: flex
 }
-
-
-

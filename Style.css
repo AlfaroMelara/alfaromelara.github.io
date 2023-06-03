@@ -4,72 +4,6 @@
     padding: 0;
 }
 
-#MainNav {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    text-align: center;
-    background-color: #062943;
-    width: 100%;
-    position: static;
-    padding: 8px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
-
-nav li {
-    margin-right: 25px;
-}
-
-nav li:hover {
-    transition: 0.5s;
-}
-
-nav li:not(hover) {
-    transition: 0.5s;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 3px;
-    ;
-}
-
-nav a:hover {
-    color: #fdc300;
-}
-
-nav a:not(hover) {
-    transition: 0.3s;
-}
-
-#BtnContact {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1em;
-    font-weight: bold;
-    padding: 10px 10px;
-    color: #000;
-    background: #fdc300;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-#BtnContact:hover {
-    background: #fff;
-    transition: 0.3s;
-}
-
-#BtnContact:not(hover) {
-    transition: 0.3s;
-}
-
 .container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 1% 2%;
@@ -80,15 +14,81 @@ nav a:not(hover) {
     padding: 1% 0% 1% 0%;
 }
 
-#ServicesCont ul{
+.HeaderNavMain {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #062943;
+    width: 100%;
+    position: static;
+    padding: 8px;
+}
+
+.HeaderNavMain ul {
+    list-style: none;
+    margin: 2px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.HeaderNavMain ul li {
+    margin: 0px;
+}
+
+.HeaderNavMain li:hover {
+    transition: 0.5s;
+}
+
+.HeaderNavMain li:not(hover) {
+    transition: 0.5s;
+}
+
+.HeaderNavMain a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    ;
+}
+
+.HeaderNavMain a:hover {
+    color: #fdc300;
+}
+
+.HeaderNavMain a:not(hover) {
+    transition: 0.3s;
+}
+
+#NavUlLiButton-Contact {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #000;
+    background: #fdc300;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#NavUlLiButton-Contact:hover {
+    background: #fff;
+    transition: 0.3s;
+}
+
+#NavUlLiButton-Contact:not(hover) {
+    transition: 0.3s;
+}
+
+#ServicesCont ul {
     padding: 1% 2% 2% 4%;
 }
 
 #StudiesTitles {
-padding: 1% 2%;}
+    padding: 1% 2%;
+}
 
-#StudiesTitles p{
-    padding: 0.3%;}
+#StudiesTitles p {
+    padding: 0.3%;
+}
 
 footer {
     font-family: 'Times New Roman', Times, serif;
@@ -99,7 +99,7 @@ footer {
 
 
 
-.images img{
+.images img {
     max-width: 99%;
     max-height: 99%;
     min-height: 99%;

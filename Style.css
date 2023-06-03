@@ -1,19 +1,6 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1em;
-    padding: 1% 3%;
-    display: inline;
-}
-
-.container h1 {
-    padding: 1% 0% 1% 0%;
-    display: block;
 }
 
 .HeaderNavMain {
@@ -68,16 +55,29 @@
     transition: 0.3s;
 }
 
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    display: inline;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5% 0% 1.5% 1.5%;
+}
+
+.container section {
+    display: inline-block;
+    width: 49.5%;
+}
+
 #ServicesCont ul {
     padding: 1% 2% 2% 4%;
 }
 
 #StudiesTitles {
-    padding: 1% 2%;
-}
-
-#StudiesTitles p {
-    padding: 0.3%;
+    padding: 0;
 }
 
 footer {
@@ -89,15 +89,15 @@ footer {
 
 @media (max-width: 480px) {
     body {
-      min-width: 480px;
+        min-width: 480px;
     }
-  }
+}
 
 @media (max-height: 720px) {
     body {
-      min-height: 720px;
+        min-height: 720px;
     }
-  }
+}
 
 .images img {
     max-width: 99%;

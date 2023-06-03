@@ -60,29 +60,28 @@ body {
 
 .container {
     font-size: 1.1em;
-    display: inline;
+    display: inline-block;
     width: 100vw;
+    padding: 2%;
 }
 
 h1 {
-    padding: 1.5%;
+    padding: 1%;
+    text-align: center;
 }
 
 .container section {
     display: inline-block;
-    width: 40%;
+    width: 49.5%;
+    min-width: 480px;
 }
 
 #ServicesCont ul {
     padding: 1% 2% 2% 4%;
 }
 
-#StudiesTitles {
-    padding: 0.5% 0% 0.5% 3%;
-}
-
 #StudiesTitles p {
-    padding: 0.3%;
+    padding: 1%;
 }
 
 footer {

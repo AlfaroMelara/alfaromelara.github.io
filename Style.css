@@ -48,14 +48,13 @@
 }
 
 #NavUlLiButton-Contact {
-    font-size: 1.1em;
-    font-weight: bold;
     padding: 10%;
     color: #000;
     background: #fdc300;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    width: 120%;
 }
 
 #NavUlLiButton-Contact:hover {

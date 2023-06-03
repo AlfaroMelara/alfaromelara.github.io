@@ -27,21 +27,9 @@
 
 .HeaderNavMain ul {
     list-style: none;
-    margin: 2px;
+    margin: 0.3%;
     padding: 0px;
     display: inline-block;
-}
-
-.HeaderNavMain ul li {
-    margin: 0px;
-}
-
-.HeaderNavMain li:hover {
-    transition: 0.5s;
-}
-
-.HeaderNavMain li:not(hover) {
-    transition: 0.5s;
 }
 
 .HeaderNavMain a {
@@ -62,7 +50,7 @@
 #NavUlLiButton-Contact {
     font-size: 1.1em;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 10%;
     color: #000;
     background: #fdc300;
     border: none;

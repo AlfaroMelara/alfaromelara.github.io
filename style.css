@@ -28,7 +28,6 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 3px;
-    ;
 }
 
 .HeaderNavMain a:hover {
@@ -62,11 +61,11 @@ body {
     font-size: 1.1em;
     display: inline-block;
     width: 100vw;
-    padding: 2%;
+    padding: 1%;
 }
 
 h1 {
-    padding: 1%;
+    padding-top: 1%;
     text-align: center;
 }
 
@@ -74,10 +73,15 @@ h1 {
     display: inline-block;
     width: 49.5%;
     min-width: 480px;
+    padding-block: 1%;
 }
 
 #ServicesCont ul {
     padding: 1% 2% 2% 4%;
+}
+
+#StudiesTitles {
+    text-align: center;
 }
 
 #StudiesTitles p {

@@ -60,8 +60,7 @@ body {
 
 .container {
     font-size: 1.1em;
-    display: inline-block;
-    width: 100vw;
+    display: block;
     padding: 1%;
 }
 

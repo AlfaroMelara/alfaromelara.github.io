@@ -88,6 +88,16 @@ footer {
 
 
 
+
+@media (max-width: 480px) {
+    body {
+      min-width: 480px;
+    }
+  }
+
+
+
+  
 .images img {
     max-width: 99%;
     max-height: 99%;
@@ -97,3 +107,6 @@ footer {
 .images {
     display: flex
 }
+
+
+

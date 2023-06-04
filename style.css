@@ -68,19 +68,19 @@ body {
 
 h1 {
     font-size: 2em;
-    padding-top: 1%;
+    padding-top: 2%;
     text-align: center;
 }
 
 h2 {
     font-size: 1.7em;
-    padding-top: 1%;
+    padding-top: 2%;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.4em;
-    padding: 1%;
+    font-size: 1.2em;
+    padding: 2.5%;
     text-align: center;
 }
 
@@ -96,7 +96,7 @@ h3 {
 }
 
 .StudiesTitles b {
-    font-size: 1.3em;
+    font-size: 1.em;
 }
 
 .StudiesTitles p {
@@ -107,8 +107,13 @@ h3 {
     list-style-type: none;
 }
 
-.StudiesSpan{
-display:block
+.StudiesSpan {
+    display: block;
+}
+
+#StudiesSpanTitles {
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 

@@ -58,7 +58,7 @@ header {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    width: 7%;
+    width: 6.5em;
     min-width: fit-content;
     height: 2.2em;
     min-height: fit-content;
@@ -76,16 +76,13 @@ header {
 .container {
     display: flexbox;
     font-size: 1.1em;
-    padding: 1%;
+    padding-block: 1%;
     width: 100%;
     text-align: center;
 }
 
-.container section {
-max-width: 100%;
-}
-
 h1 {
+    width: 100vw;
     background-color: #333;
     color: #fff;
     font-size: 2em;
@@ -96,12 +93,14 @@ h1 {
 }
 
 h2 {
+    width: 100vw;
     font-size: 1.7em;
     padding-top: 2%;
     text-align: center;
 }
 
 h3 {
+    width: 100vw;
     font-size: 1.2em;
     padding: 1.5%;
     text-align: center;
@@ -158,18 +157,16 @@ footer {
 }
 
 @media (max-width: 480px) {
-    body {
-        min-width: 480px;
-    }
 
-    .HeaderNavMain {
-        min-width: 480px;
-    }
-
+    body,
+    .HeaderNavMain,
     .container {
         min-width: 480px;
     }
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
         min-width: 480px;
     }
 }

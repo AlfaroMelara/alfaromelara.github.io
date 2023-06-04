@@ -59,9 +59,11 @@ body {
 }
 
 .container {
+    display: flexbox;
     font-size: 1.1em;
-    display: block;
     padding: 1%;
+    min-width: 600px;
+    text-align: center;
 }
 
 h1 {
@@ -71,21 +73,32 @@ h1 {
 
 .container section {
     display: inline-block;
-    width: 49.5%;
+    width: 49%;
     min-width: 600px;
     padding-block: 1%;
+    vertical-align: top;
 }
 
 #ServicesCont ul {
     padding: 1% 2% 2% 4%;
 }
 
-#StudiesTitles {
+#StudiesTitlesOfficial,
+#StudiesTitlesNonOfficial {
     text-align: center;
 }
 
-#StudiesTitles p {
+#StudiesTitlesOfficial p,
+#StudiesTitlesNonOfficial p {
     padding: 1%;
+}
+
+#StudiesTitlesOfficial {
+    z-index: 0;
+}
+
+#StudiesTitlesNonOfficial {
+    z-index: 0;
 }
 
 footer {
@@ -105,4 +118,11 @@ footer {
     body {
         min-height: 600px;
     }
+}
+
+/*.container {
+    background-color: #137ccc;
+}
+.container section {
+    background-color: #062943;
 }

@@ -9,9 +9,10 @@ body {
 }
 
 header {
-margin: 0;
-padding: 0;
-width: 100%;}
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
 .HeaderNavMain {
     font-size: 1.1em;
@@ -56,7 +57,7 @@ width: 100%;}
     border-radius: 50px;
     cursor: pointer;
     width: 7%;
-    min-width:fit-content;
+    min-width: fit-content;
     height: 2.2em;
     min-height: fit-content;
 }
@@ -153,12 +154,15 @@ footer {
     body {
         min-width: 480px;
     }
+
     .HeaderNavMain {
-    min-width: 480px;
-}
+        min-width: 480px;
+    }
+
     .container {
         min-width: 480px;
-}
+    }
+
     .StudiesTitlesBox {
         min-width: 100%;
     }

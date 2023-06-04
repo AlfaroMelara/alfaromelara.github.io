@@ -11,8 +11,6 @@ body {
 }
 
 header {
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 
@@ -23,7 +21,8 @@ header {
     background-color: #062943;
     width: 100%;
     position: fixed;
-    padding-block: 0.8vh;
+    padding: 0.8vh;
+    top: 0;
 }
 
 .HeaderNavMain ul {
@@ -38,6 +37,31 @@ header {
     text-decoration: none;
     margin: 0.5%;
 }
+
+.HeaderNavMain2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #062943;
+    width: 100%;
+    position: static;
+    padding: 0.8vh;
+    top: 0;
+}
+
+.HeaderNavMain2 ul {
+    list-style: none;
+    margin: 0.3%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.HeaderNavMain2 a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0.5%;
+}
+
 
 .HeaderNavMain a:hover {
     color: #fdc300;
@@ -86,7 +110,7 @@ h1 {
     background-color: #333;
     color: #fff;
     font-size: 2em;
-    padding-block: 5vh;
+    padding-block: 0.5vh;
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;

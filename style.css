@@ -67,39 +67,57 @@ body {
 }
 
 h1 {
+    font-size: 2em;
     padding-top: 1%;
     text-align: center;
 }
 
-.container section {
+h2 {
+    font-size: 1.7em;
+    padding-top: 1%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4em;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.StudiesTitles {
     display: inline-block;
     width: 49%;
     min-width: 600px;
+    max-width: 720px;
     padding-block: 1%;
     vertical-align: top;
+    font-size: 1.1em;
+    text-align: center;
 }
+
+.StudiesTitles b {
+    font-size: 1.25em;
+}
+
+.StudiesTitles p {
+    padding: 1%;
+}
+
+.StudiesTitles ul {
+    list-style-type: none;
+}
+
+
+
 
 #ServicesCont ul {
     padding: 1% 2% 2% 4%;
 }
 
-#StudiesTitlesOfficial,
-#StudiesTitlesNonOfficial {
-    text-align: center;
-}
 
-#StudiesTitlesOfficial p,
-#StudiesTitlesNonOfficial p {
-    padding: 1%;
-}
 
-#StudiesTitlesOfficial {
-    z-index: 0;
-}
 
-#StudiesTitlesNonOfficial {
-    z-index: 0;
-}
+
 
 footer {
     font-family: 'Times New Roman', Times, serif;

@@ -14,21 +14,21 @@ body {
     text-align: center;
     background-color: #062943;
     width: 100%;
-    position: static;
-    padding: 0.3%;
+    position: fixed;
+    padding: 0.8vh;
 }
 
 .HeaderNavMain ul {
     list-style: none;
     margin: 0.3%;
-    padding: 0px;
-    display: inline-block;
+    display: inline;
+    vertical-align: middle;
 }
 
 .HeaderNavMain a {
     color: #fff;
     text-decoration: none;
-    padding: 3px;
+    margin: 0.5%;
 }
 
 .HeaderNavMain a:hover {
@@ -40,13 +40,20 @@ body {
 }
 
 #NavUlLiButton-Contact {
-    padding: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
     color: #000;
     background: #fdc300;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    width: 120%;
+    width: 7%;
+    min-width:fit-content;
+    height: 2.2em;
+    min-height: fit-content;
 }
 
 #NavUlLiButton-Contact:hover {
@@ -67,9 +74,13 @@ body {
 }
 
 h1 {
+    background-color: #333;
+    color: #fff;
     font-size: 2em;
-    padding-top: 2%;
+    padding: 0.4%;
     text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 h2 {
@@ -80,7 +91,7 @@ h2 {
 
 h3 {
     font-size: 1.2em;
-    padding: 2.5%;
+    padding: 1.5%;
     text-align: center;
 }
 

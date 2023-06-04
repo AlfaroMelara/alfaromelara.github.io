@@ -98,7 +98,7 @@ h3 {
 .StudiesTitles {
     display: inline-block;
     width: 49%;
-    min-width: 480px;
+    min-width: 420px;
     max-width: 1080px;
     padding-block: 1%;
     vertical-align: top;
@@ -145,9 +145,9 @@ footer {
     padding: 20px 5px 3px 5px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     body {
-        min-width: 480px;
+        min-width: 420px;
     }
 }
 

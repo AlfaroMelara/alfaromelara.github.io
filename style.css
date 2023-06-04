@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 body {
@@ -23,7 +23,7 @@ header {
     background-color: #062943;
     width: 100%;
     position: fixed;
-    padding: 0.8vh;
+    padding-block: 0.8vh;
 }
 
 .HeaderNavMain ul {
@@ -86,7 +86,7 @@ h1 {
     background-color: #333;
     color: #fff;
     font-size: 2em;
-    padding: 5vh;
+    padding-block: 5vh;
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -102,7 +102,7 @@ h2 {
 h3 {
     width: 100vw;
     font-size: 1.2em;
-    padding: 1.5%;
+    padding-block: 1.5%;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ h3 {
 }
 
 .StudiesTitlesBox p {
-    padding: 1.5%;
+    padding-block: 1.5%;
 }
 
 .StudiesTitlesBox ul {
@@ -141,7 +141,7 @@ h3 {
 
 
 #ServicesCont ul {
-    padding: 1% 2% 2% 4%;
+    padding-block: 1% 2% 2% 4%;
 }
 
 
@@ -153,7 +153,7 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
     text-align: center;
-    padding: 20px 5px 3px 5px;
+    padding-block: 20px 5px 3px 5px;
 }
 
 @media (max-width: 480px) {

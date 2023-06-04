@@ -74,6 +74,7 @@ width: 100%;}
     display: flexbox;
     font-size: 1.1em;
     padding: 1%;
+    width: 100%;
     min-width: 480px;
     text-align: center;
 }
@@ -100,10 +101,9 @@ h3 {
     text-align: center;
 }
 
-.StudiesTitles {
+.StudiesTitlesBox {
     display: inline-block;
     width: 49%;
-    min-width: 420px;
     max-width: 1080px;
     padding-block: 1%;
     vertical-align: top;
@@ -111,15 +111,15 @@ h3 {
     text-align: center;
 }
 
-.StudiesTitles b {
+.StudiesTitlesBox b {
     font-size: 1.em;
 }
 
-.StudiesTitles p {
+.StudiesTitlesBox p {
     padding: 1.5%;
 }
 
-.StudiesTitles ul {
+.StudiesTitlesBox ul {
     list-style-type: none;
 }
 
@@ -154,6 +154,12 @@ footer {
     body {
         min-width: 420px;
     }
+    .HeaderNavMain {
+    min-width: 420px;
+}
+    .StudiesTitlesBox {
+        min-width: 420px;
+    }
 }
 
 @media (max-height: 600px) {
@@ -169,4 +175,4 @@ footer {
 }
 .container section {
     background-color: #062943;
-}
+}*/

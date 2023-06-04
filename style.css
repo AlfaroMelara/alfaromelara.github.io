@@ -149,18 +149,18 @@ footer {
     padding: 20px 5px 3px 5px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     body {
-        min-width: 420px;
+        min-width: 480px;
     }
     .HeaderNavMain {
-    min-width: 420px;
+    min-width: 480px;
 }
     .container {
-        min-width: 420px;
+        min-width: 480px;
 }
     .StudiesTitlesBox {
-        min-width: 420px;
+        min-width: 100%;
     }
 }
 

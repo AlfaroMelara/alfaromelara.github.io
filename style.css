@@ -72,7 +72,7 @@ h1 {
 .container section {
     display: inline-block;
     width: 49.5%;
-    min-width: 480px;
+    min-width: 600px;
     padding-block: 1%;
 }
 
@@ -95,24 +95,14 @@ footer {
     padding: 20px 5px 3px 5px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     body {
-        min-width: 480px;
+        min-width: 600px;
     }
 }
 
-@media (max-height: 720px) {
+@media (max-height: 600px) {
     body {
-        min-height: 720px;
+        min-height: 600px;
     }
-}
-
-.images img {
-    max-width: 99%;
-    max-height: 99%;
-    min-height: 99%;
-}
-
-.images {
-    display: flex
 }

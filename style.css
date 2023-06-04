@@ -111,7 +111,7 @@ h3 {
     display: inline-block;
     width: 49%;
     max-width: 1080px;
-    min-width: 480px;
+    min-width: 420px;
     padding-block: 1%;
     vertical-align: top;
     font-size: 1.1em;
@@ -157,17 +157,17 @@ footer {
     padding: 20px 5px 3px 5px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
     body {
-        min-width: 480px;
+        min-width: 420px;
     }
 
     .HeaderNavMain {
-        min-width: 480px;
+        min-width: 420px;
     }
 
     .container {
-        min-width: 480px;
+        min-width: 420px;
     }
 }
 

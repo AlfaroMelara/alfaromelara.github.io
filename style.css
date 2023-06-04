@@ -2,12 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100vw;
 }
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
-    max-width: 100vw;
+    width: 100vw;
 }
 
 header {
@@ -24,7 +24,6 @@ header {
     width: 100%;
     position: fixed;
     padding: 0.8vh;
-    min-width: 480px;
 }
 
 .HeaderNavMain ul {
@@ -80,8 +79,10 @@ header {
     padding: 1%;
     width: 100%;
     text-align: center;
-    min-width: 480px;
-    max-width: 100vw;
+}
+
+.container section {
+max-width: 100%;
 }
 
 h1 {
@@ -158,6 +159,14 @@ footer {
 
 @media (max-width: 480px) {
     body {
+        min-width: 480px;
+    }
+
+    .HeaderNavMain {
+        min-width: 480px;
+    }
+
+    .container {
         min-width: 480px;
     }
 }

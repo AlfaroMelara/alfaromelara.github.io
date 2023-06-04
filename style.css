@@ -169,6 +169,9 @@ footer {
     .container {
         min-width: 420px;
     }
+    h1, h2, h3 {
+        min-width: 420px;
+    }
 }
 
 @media (max-height: 600px) {

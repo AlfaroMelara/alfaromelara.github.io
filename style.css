@@ -80,7 +80,7 @@ h2 {
 
 h3 {
     font-size: 1.4em;
-    padding: 0.5%;
+    padding: 1%;
     text-align: center;
 }
 
@@ -96,15 +96,19 @@ h3 {
 }
 
 .StudiesTitles b {
-    font-size: 1.25em;
+    font-size: 1.3em;
 }
 
 .StudiesTitles p {
-    padding: 1%;
+    padding: 1.5%;
 }
 
 .StudiesTitles ul {
     list-style-type: none;
+}
+
+.StudiesSpan{
+display:block
 }
 
 

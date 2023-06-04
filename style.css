@@ -22,6 +22,7 @@ header {
     width: 100%;
     position: fixed;
     padding: 0.8vh;
+    min-width: 480px;
 }
 
 .HeaderNavMain ul {
@@ -77,6 +78,7 @@ header {
     padding: 1%;
     width: 100%;
     text-align: center;
+    min-width: 480px;
 }
 
 h1 {
@@ -153,14 +155,6 @@ footer {
 
 @media (max-width: 480px) {
     body {
-        min-width: 480px;
-    }
-
-    .HeaderNavMain {
-        min-width: 480px;
-    }
-
-    .container {
         min-width: 480px;
     }
 }

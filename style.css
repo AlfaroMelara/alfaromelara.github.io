@@ -106,11 +106,13 @@ header {
 }
 
 h1 {
-    width: 5em;
+    display: inline-block;
     background-color: #333;
     color: #fff;
     font-size: 2em;
-    padding-block: 0.1em;
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 0.3em;
     text-align: center;
     border-bottom-right-radius: 15px;
 }
@@ -145,7 +147,7 @@ h3 {
 }
 
 .StudiesTitlesBox p {
-    padding-block: 1.5%;
+    padding-block: 1em;
 }
 
 .StudiesTitlesBox ul {

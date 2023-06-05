@@ -26,7 +26,8 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    white-space: nowrap; 
+    white-space: nowrap;
+    word-spacing: 0.1em;
 }
 
 .HeaderNavMain ul {

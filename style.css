@@ -120,14 +120,14 @@ h1 {
 h2 {
     width: 100vw;
     font-size: 1.7em;
-    padding-top: 2em;
+    padding-top: 1.7em;
     text-align: center;
 }
 
 h3 {
     width: 100vw;
     font-size: 1.2em;
-    padding-block: 1em;
+    padding: 1.2em;
     text-align: center;
 }
 
@@ -143,11 +143,11 @@ h3 {
 }
 
 .StudiesTitlesBox b {
-    font-size: 1.em;
+    font-size: 1em;
 }
 
 .StudiesTitlesBox p {
-    padding-block: 1em;
+    padding: 1.2em;
 }
 
 .StudiesTitlesBox ul {

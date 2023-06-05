@@ -84,7 +84,7 @@ header {
 }
 
 h1 {
-    display:inline-block;
+    display: inline-block;
     background-color: #333;
     color: #fff;
     font-size: 2em;
@@ -149,14 +149,18 @@ h3 {
 
 
 
-
-
-
 footer {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
     text-align: center;
     padding-block: 20px 5px 3px 5px;
+}
+
+
+@media (max-width: 1440px) {
+    h1 {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 480px) {
@@ -171,8 +175,6 @@ footer {
     h3 {
         min-width: 480px;
     }
-    h1 {
-    visibility: hidden;}
 }
 
 @media (max-height: 600px) {

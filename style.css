@@ -106,27 +106,26 @@ header {
 }
 
 h1 {
-    width: 100vw;
+    width: 5em;
     background-color: #333;
     color: #fff;
     font-size: 2em;
-    padding-block: 0.5vh;
+    padding-block: 0.1em;
     text-align: center;
-    border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
 h2 {
     width: 100vw;
     font-size: 1.7em;
-    padding-top: 2%;
+    padding-top: 2em;
     text-align: center;
 }
 
 h3 {
     width: 100vw;
     font-size: 1.2em;
-    padding-block: 1.5%;
+    padding-block: 1em;
     text-align: center;
 }
 
@@ -188,11 +187,12 @@ footer {
         min-width: 480px;
     }
 
-    h1,
     h2,
     h3 {
         min-width: 480px;
     }
+    h1 {
+    visibility: hidden;}
 }
 
 @media (max-height: 600px) {

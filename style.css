@@ -19,23 +19,25 @@ header {
     font-weight: bold;
     text-align: center;
     background-color: #062943;
-    width: 100%;
-    position: fixed;
-    padding: 0.8vh;
+    position: static;
+    height: 3.1em;
     top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; 
 }
 
 .HeaderNavMain ul {
     list-style: none;
-    margin: 0.3%;
-    display: inline;
-    vertical-align: middle;
+    margin: 1.5em;
+    display: inline-block;
 }
 
 .HeaderNavMain a {
     color: #fff;
     text-decoration: none;
-    margin: 0.5%;
 }
 
 .HeaderNavMain a:hover {
@@ -81,7 +83,7 @@ header {
 }
 
 h1 {
-    display: inline-block;
+    display:inline-block;
     background-color: #333;
     color: #fff;
     font-size: 2em;
@@ -102,7 +104,7 @@ h2 {
 h3 {
     width: 100vw;
     font-size: 1.2em;
-    padding: 1.2em;
+    padding: 1.1em;
     text-align: center;
 }
 
@@ -122,7 +124,7 @@ h3 {
 }
 
 .StudiesTitlesBox p {
-    padding: 1.2em;
+    padding: 1.1em;
 }
 
 .StudiesTitlesBox ul {
